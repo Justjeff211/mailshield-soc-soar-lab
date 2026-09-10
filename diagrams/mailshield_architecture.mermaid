@@ -1,0 +1,16 @@
+flowchart TD
+    A["Synthetic Emails (.eml)"] --> B["Splunk: Ingestion and Search"]
+    B --> C["Detection Logic (SPL)"]
+    C --> D["Alert Triggered"]
+    D --> E["IOC Identification"]
+    E --> F{"Select Enrichment Tool"}
+    F --> G["VirusTotal"]
+    F --> H["Talos Intelligence"]
+    F --> I["AbuseIPDB"]
+    E -. "artifact decoding (as needed)" .-> J["CyberChef"]
+    G --> K["Risk Scoring"]
+    H --> K
+    I --> K
+    K --> L["Shuffle: SOAR Automation"]
+    L --> M["Incident Response"]
+    M --> N["Documentation (GitHub)"]
