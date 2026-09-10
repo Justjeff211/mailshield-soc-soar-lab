@@ -22,7 +22,7 @@ Use cases:
 - Portfolio SOC write-up
 
 Cases:
-1. CASE-07 Okta MFA reset lure
-2. CASE-08 SharePoint document review lure
-3. CASE-09 Payroll direct deposit verification lure
-4. CASE-10 Vendor bank change / BEC invoice lure
+1. CASE-01 Okta MFA reset lure
+2. CASE-02 SharePoint document review lure
+3. CASE-03 Payroll direct deposit verification lure
+4. CASE-04 Vendor bank change / BEC invoice lure
