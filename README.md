@@ -4,7 +4,7 @@
 analysis, detection engineering, Splunk, Shuffle automation, IOC enrichment,
 risk scoring, and incident response in an isolated environment.**
 
-Status: 🚧 In progress - built step by step, documented as I go.
+Status: In progress - built step by step, documented as I go.
 
 ## What this project demonstrates
 
@@ -20,6 +20,7 @@ Risk Scoring -> Shuffle Automation -> Incident Response -> Documentation`
 - **AbuseIPDB** - IP abuse history
 - **CyberChef** - decoding/analysing email artefacts
 - **Git/GitHub** - version control and portfolio
+- **StackEdit** - In-browser Markdown editing, live preview, and GitHub-ready documentation
 
 ## Repository structure
 
@@ -42,5 +43,10 @@ Risk Scoring -> Shuffle Automation -> Incident Response -> Documentation`
 - [ ] Incident response write-ups
 - [ ] Threat hunting exercises
 - [ ] MITRE ATT&CK mapping
+
+## Connect with Me
+
+- Portfolio: [justjeff211.github.io](https://justjeff211.github.io/)
+- LinkedIn: [Mojalefa L. Letsoara](https://www.linkedin.com/in/mojalefa-l-letsoara283b5a211/)
 
 This README will be filled in properly as each step is completed.
