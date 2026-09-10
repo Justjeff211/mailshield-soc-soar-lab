@@ -1,0 +1,2 @@
+employee_id,bank_name,last4,status
+TRAIN-001,Example Bank,1234,unverified

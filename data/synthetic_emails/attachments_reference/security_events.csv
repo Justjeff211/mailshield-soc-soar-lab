@@ -1,0 +1,3 @@
+timestamp,event,source_ip,result
+2026-05-12T10:07:00Z,sign-in,198.51.100.44,blocked
+2026-05-12T10:08:12Z,mfa_prompt,198.51.100.44,unverified

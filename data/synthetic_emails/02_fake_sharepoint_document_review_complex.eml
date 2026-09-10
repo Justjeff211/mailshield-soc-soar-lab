@@ -1,0 +1,104 @@
+Subject: Shared Document: Q2 Contract Review Requires Approval
+From: "SharePoint Online" <sharing@sharepoint-notices.example.invalid>
+To: legal.review@example.invalid
+Reply-To: document-workflow@sharepoint-review.example.invalid
+Return-Path: <noreply@sharepoint-notices.example.invalid>
+Authentication-Results: mx.corp.example.invalid; spf=pass
+ smtp.mailfrom=sharepoint-notices.example.invalid; dkim=none; dmarc=fail
+ header.from=sharepoint-notices.example.invalid
+Date: Tue, 12 May 2026 10:08:00 +0000
+Message-ID: <complex-training-8@example.invalid>
+X-Originating-IP: [198.51.100.215]
+X-Training-Lab: Synthetic email for defensive SOC analysis only - no live
+ links or malicious payloads
+X-Case-ID: CASE-8
+X-Mailer: SyntheticLabMailer/2.0
+Received: from mail-gateway-08.example.invalid
+ (mail-gateway-08.example.invalid [198.51.100.215]) by mx.corp.example.invalid
+ with ESMTP id TRAIN8A; Tue, 12 May 2026 12:08:00 +0200
+Received: from outbound-relay-8.example.invalid
+ (outbound-relay-8.example.invalid [10.10.8.25]) by
+ mail-gateway-08.example.invalid with ESMTPS id TRAIN8B; Tue, 12 May 2026
+ 10:08:31 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============1317652610029598430=="
+Cc: finance.manager@example.invalid
+
+--===============1317652610029598430==
+Content-Type: multipart/alternative;
+ boundary="===============5877285648739204554=="
+
+--===============5877285648739204554==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+A document has been shared with you for approval.
+
+Document: Q2 Contract Review
+Open secure review:
+hxxps://sharepoint-doc-review[.]example[.]invalid/:w:/r/contract/q2
+
+Attachments:
+- Contract_Review_Portal.html
+- approval_thread.eml
+- access_request.txt
+
+This is a synthetic training email.
+
+--===============5877285648739204554==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<!doctype html><html><head><meta charset=3D"utf-8"><style>body{font-family:Se=
+goe UI,Arial,sans-serif;background:#f3f2f1;color:#201f1e}.card{max-width:760p=
+x;margin:20px auto;background:white;border:1px solid #c8c6c4;padding:26px}.ms=
+{color:#0078d4;font-weight:700}.notice{border-left:5px solid #ffaa44;backgrou=
+nd:#fff4ce;padding:10px;margin:15px 0}.btn{background:#0078d4;color:#fff;padd=
+ing:12px 20px;border-radius:2px;text-decoration:none}.meta{font-size:13px;col=
+or:#605e5c}</style></head><body><div class=3D"card"><h2><span class=3D"ms">Sh=
+arePoint</span> Document Review</h2><p><strong>Q2 Contract Review</strong> ha=
+s been shared with you and requires approval within 24 hours.</p><div class=
+=3D"notice">External sharing warning: sender domain and reply workflow should=
+ be verified before opening attachments.</div><p><a class=3D"btn" href=3D"#">=
+Open Secure Review</a></p><p class=3D"meta">Defanged review URL: hxxps://shar=
+epoint-doc-review[.]example[.]invalid/:w:/r/contract/q2</p><hr><p class=3D"me=
+ta">Synthetic email for defensive SOC training.</p></div></body></html>
+
+--===============5877285648739204554==--
+
+--===============1317652610029598430==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Contract_Review_Portal.html"
+MIME-Version: 1.0
+
+PCFkb2N0eXBlIGh0bWw+PGh0bWw+PGJvZHk+PGgyPkRvY3VtZW50IFJldmlldyBUcmFpbmluZyBQ
+bGFjZWhvbGRlcjwvaDI+PHA+Tm8gbGl2ZSBTaGFyZVBvaW50IGNvbm5lY3Rpb24uPC9wPjxwPkRl
+ZmFuZ2VkIFVSTDogaHh4cHM6Ly9zaGFyZXBvaW50LWRvYy1yZXZpZXdbLl1leGFtcGxlWy5daW52
+YWxpZC86dzovci9jb250cmFjdC9xMjwvcD48L2JvZHk+PC9odG1sPg==
+
+--===============1317652610029598430==
+Content-Type: text/plain
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="approval_thread.eml"
+MIME-Version: 1.0
+
+RnJvbTogIlZlbmRvciBMZWdhbCIgPGNvbnRyYWN0c0BleHRlcm5hbC12ZW5kb3IuZXhhbXBsZS5p
+bnZhbGlkPgpUbzogZG9jdW1lbnQtd29ya2Zsb3dAc2hhcmVwb2ludC1yZXZpZXcuZXhhbXBsZS5p
+bnZhbGlkClN1YmplY3Q6IFJFOiBRMiBDb250cmFjdCBSZXZpZXcKRGF0ZTogVHVlLCAxMiBNYXkg
+MjAyNiAwOTo0NTowMCArMDAwMAoKUGxlYXNlIHJldmlldyB0b2RheS4KClN5bnRoZXRpYyBuZXN0
+ZWQgZW1haWwgZm9yIGxhYiB1c2Ugb25seS4K
+
+--===============1317652610029598430==
+Content-Type: text/plain
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="access_request.txt"
+MIME-Version: 1.0
+
+VHJhaW5pbmcgcGxhY2Vob2xkZXIuIFJlcXVlc3RlZCBhY2Nlc3M6IGxlZ2FsIHJldmlldy4gTm8g
+bGl2ZSBhY2Nlc3MgZ3JhbnRlZC4K
+
+--===============1317652610029598430==--

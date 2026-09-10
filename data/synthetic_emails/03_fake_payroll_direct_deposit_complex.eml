@@ -1,0 +1,104 @@
+Subject: Payroll Action Needed: Direct Deposit Verification
+From: "Payroll Services" <payroll-notice@employee-benefits.example.invalid>
+To: staff.member@example.invalid
+Reply-To: payroll-helpdesk@benefits-verify.example.invalid
+Return-Path: <bounce@benefits-verify.example.invalid>
+Authentication-Results: mx.corp.example.invalid; spf=neutral
+ smtp.mailfrom=benefits-verify.example.invalid; dkim=fail reason='body hash
+ did not verify'; dmarc=fail header.from=employee-benefits.example.invalid
+Date: Tue, 12 May 2026 10:09:00 +0000
+Message-ID: <complex-training-9@example.invalid>
+X-Originating-IP: [203.0.113.222]
+X-Training-Lab: Synthetic email for defensive SOC analysis only - no live
+ links or malicious payloads
+X-Case-ID: CASE-9
+X-Mailer: SyntheticLabMailer/2.0
+Received: from mail-gateway-09.example.invalid
+ (mail-gateway-09.example.invalid [203.0.113.222]) by mx.corp.example.invalid
+ with ESMTP id TRAIN9A; Tue, 12 May 2026 12:09:00 +0200
+Received: from outbound-relay-9.example.invalid
+ (outbound-relay-9.example.invalid [10.10.9.25]) by
+ mail-gateway-09.example.invalid with ESMTPS id TRAIN9B; Tue, 12 May 2026
+ 10:09:31 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============7719657757101174420=="
+List-ID: Payroll Notices <payroll.employee-benefits.example.invalid>
+Precedence: bulk
+
+--===============7719657757101174420==
+Content-Type: multipart/alternative;
+ boundary="===============0080443003071808255=="
+
+--===============0080443003071808255==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Dear Employee,
+
+Payroll could not verify your direct deposit profile. Confirm your payroll de=
+tails before close of business.
+
+Verification portal:
+hxxps://payroll-profile-verify[.]example[.]invalid/update
+
+Attachments:
+- Payroll_Profile_Update.html
+- deposit_template.csv
+- payroll_deadline.ics
+
+Synthetic training email.
+
+--===============0080443003071808255==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<!doctype html><html><head><meta charset=3D"utf-8"><style>body{font-family:Ar=
+ial;background:#fff;color:#1f2937}.wrap{max-width:760px;margin:auto;border:1p=
+x solid #e5e7eb;padding:24px}.warn{background:#fee2e2;border:1px solid #fca5a=
+5;padding:12px}.btn{background:#b91c1c;color:white;padding:12px 18px;border-r=
+adius:4px;text-decoration:none}.small{font-size:12px;color:#6b7280}</style></=
+head><body><div class=3D"wrap"><h2>Payroll Direct Deposit Verification</h2><d=
+iv class=3D"warn"><strong>Action required:</strong> Direct deposit profile co=
+uld not be verified.</div><p>Confirm payroll details before close of business=
+ to avoid salary processing delays.</p><p><a class=3D"btn" href=3D"#">Verify =
+Payroll Profile</a></p><p>Defanged portal: <strong>hxxps://payroll-profile-ve=
+rify[.]example[.]invalid/update</strong></p><p class=3D"small">Synthetic trai=
+ning message. No real payroll action.</p></div></body></html>
+
+--===============0080443003071808255==--
+
+--===============7719657757101174420==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Payroll_Profile_Update.html"
+MIME-Version: 1.0
+
+PCFkb2N0eXBlIGh0bWw+PGh0bWw+PGJvZHk+PGgyPlBheXJvbGwgVHJhaW5pbmcgUGxhY2Vob2xk
+ZXI8L2gyPjxwPk5vIHJlYWwgcGF5cm9sbCBmb3JtLiBObyBjcmVkZW50aWFsIG9yIGJhbmtpbmcg
+ZGF0YSBjb2xsZWN0aW9uLjwvcD48L2JvZHk+PC9odG1sPg==
+
+--===============7719657757101174420==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="deposit_template.csv"
+MIME-Version: 1.0
+
+ZW1wbG95ZWVfaWQsYmFua19uYW1lLGxhc3Q0LHN0YXR1cwpUUkFJTi0wMDEsRXhhbXBsZSBCYW5r
+LDEyMzQsdW52ZXJpZmllZAo=
+
+--===============7719657757101174420==
+Content-Type: text/calendar
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="payroll_deadline.ics"
+MIME-Version: 1.0
+
+QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wClBST0RJRDotLy9TeW50aGV0aWMgRW1haWwgTGFi
+Ly9UcmFpbmluZy8vRU4KQkVHSU46VkVWRU5UClVJRDoxNzc4NzQxMTMzNTEuMTkxMi4xMzI0Njk1
+NTMwMzg5Nzg2MDgwNUBjYWxlbmRhci5leGFtcGxlLmludmFsaWQKRFRTVEFNUDoyMDI2MDUxMlQx
+MDAwMDBaCkRUU1RBUlQ6MjAyNjA1MTNUMDgwMDAwWgpEVEVORDoyMDI2MDUxM1QwODMwMDBaClNV
+TU1BUlk6UGF5cm9sbCBWZXJpZmljYXRpb24gRGVhZGxpbmUKREVTQ1JJUFRJT046U3ludGhldGlj
+IGRlYWRsaW5lIHJlbWluZGVyIGZvciB0cmFpbmluZyBvbmx5LgpFTkQ6VkVWRU5UCkVORDpWQ0FM
+RU5EQVIK
+
+--===============7719657757101174420==--

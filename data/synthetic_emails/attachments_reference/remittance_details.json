@@ -1,0 +1,7 @@
+{
+  "training": true,
+  "supplier": "Northwind Supplies",
+  "invoice": "INV-90412",
+  "amount": "R 84250.00",
+  "note": "Synthetic data only. No real banking details."
+}

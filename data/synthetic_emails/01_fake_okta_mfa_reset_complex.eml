@@ -1,0 +1,107 @@
+Subject: MFA Reset Required: Suspicious Sign-in Blocked
+From: "Okta Security Operations" <no-reply@okta-security.example.invalid>
+To: it.user@example.invalid
+Reply-To: identity-support@access-review.example.invalid
+Return-Path: <bounce@access-review.example.invalid>
+Authentication-Results: mx.corp.example.invalid; spf=softfail
+ smtp.mailfrom=access-review.example.invalid; dkim=none; dmarc=fail
+ header.from=okta-security.example.invalid
+Date: Tue, 12 May 2026 10:07:00 +0000
+Message-ID: <complex-training-7@example.invalid>
+X-Originating-IP: [203.0.113.210]
+X-Training-Lab: Synthetic email for defensive SOC analysis only - no live
+ links or malicious payloads
+X-Case-ID: CASE-7
+X-Mailer: SyntheticLabMailer/2.0
+Received: from mail-gateway-07.example.invalid
+ (mail-gateway-07.example.invalid [203.0.113.210]) by mx.corp.example.invalid
+ with ESMTP id TRAIN7A; Tue, 12 May 2026 12:07:00 +0200
+Received: from outbound-relay-7.example.invalid
+ (outbound-relay-7.example.invalid [10.10.7.25]) by
+ mail-gateway-07.example.invalid with ESMTPS id TRAIN7B; Tue, 12 May 2026
+ 10:07:31 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============4951108510165700256=="
+
+--===============4951108510165700256==
+Content-Type: multipart/alternative;
+ boundary="===============5687898970394263770=="
+
+--===============5687898970394263770==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello,
+
+A suspicious sign-in attempt was blocked on your account.
+
+To avoid account lockout, review and reset MFA:
+hxxps://okta-mfa-review[.]example[.]invalid/session/restore
+
+Attached:
+- MFA_Reset_Guide.html
+- security_events.csv
+- mfa_review_meeting.ics
+
+This is a synthetic training email. Do not use against real users.
+
+--===============5687898970394263770==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<!doctype html><html><head><meta charset=3D"utf-8"><style>body{font-family:Ar=
+ial;background:#f6f8fb;color:#202124}.container{max-width:720px;margin:20px a=
+uto;background:#fff;border:1px solid #d8dee9;padding:24px}.badge{background:#=
+d93025;color:#fff;padding:6px 10px;border-radius:4px;font-weight:bold}.button=
+{display:inline-block;background:#0b57d0;color:#fff;padding:12px 18px;text-de=
+coration:none;border-radius:4px}table{width:100%;border-collapse:collapse;mar=
+gin-top:15px}td,th{border:1px solid #ddd;padding:8px;font-size:13px}.footer{c=
+olor:#777;font-size:12px;margin-top:24px}</style></head><body><div class=3D"c=
+ontainer"><span class=3D"badge">Security Alert</span><h2>MFA Reset Required</=
+h2><p>A suspicious sign-in attempt was blocked on your account. Reset MFA to =
+avoid temporary account lockout.</p><table><tr><th>Event</th><th>Result</th><=
+th>Source</th></tr><tr><td>Sign-in attempt</td><td>Blocked</td><td>198[.]51[.=
+]100[.]44</td></tr><tr><td>MFA prompt</td><td>Unverified</td><td>Unknown brow=
+ser</td></tr></table><p><a class=3D"button" href=3D"#">Review MFA Settings</a=
+></p><p>Manual review link: <strong>hxxps://okta-mfa-review[.]example[.]inval=
+id/session/restore</strong></p><p class=3D"footer">Synthetic training email. =
+No live links. No credential collection.</p></div></body></html>
+
+--===============5687898970394263770==--
+
+--===============4951108510165700256==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="MFA_Reset_Guide.html"
+MIME-Version: 1.0
+
+PCFkb2N0eXBlIGh0bWw+PGh0bWw+PGJvZHk+PGgxPlRyYWluaW5nIFBsYWNlaG9sZGVyPC9oMT48
+cD5UaGlzIGF0dGFjaG1lbnQgaXMgc3ludGhldGljLiBObyBmb3JtLCBubyBjcmVkZW50aWFsIGNv
+bGxlY3Rpb24uPC9wPjxwPlJldmlldyBsaW5rOiBoeHhwczovL29rdGEtbWZhLXJldmlld1suXWV4
+YW1wbGVbLl1pbnZhbGlkL3Nlc3Npb24vcmVzdG9yZTwvcD48L2JvZHk+PC9odG1sPg==
+
+--===============4951108510165700256==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="security_events.csv"
+MIME-Version: 1.0
+
+dGltZXN0YW1wLGV2ZW50LHNvdXJjZV9pcCxyZXN1bHQKMjAyNi0wNS0xMlQxMDowNzowMFosc2ln
+bi1pbiwxOTguNTEuMTAwLjQ0LGJsb2NrZWQKMjAyNi0wNS0xMlQxMDowODoxMlosbWZhX3Byb21w
+dCwxOTguNTEuMTAwLjQ0LHVudmVyaWZpZWQK
+
+--===============4951108510165700256==
+Content-Type: text/calendar
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="mfa_review_meeting.ics"
+MIME-Version: 1.0
+
+QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wClBST0RJRDotLy9TeW50aGV0aWMgRW1haWwgTGFi
+Ly9UcmFpbmluZy8vRU4KQkVHSU46VkVWRU5UClVJRDoxNzc4NzQxMTMzNDYuMTkxMi45MzQ4MjU4
+NzQxNjE0MDIyMTZAY2FsZW5kYXIuZXhhbXBsZS5pbnZhbGlkCkRUU1RBTVA6MjAyNjA1MTJUMTAw
+MDAwWgpEVFNUQVJUOjIwMjYwNTEzVDA4MDAwMFoKRFRFTkQ6MjAyNjA1MTNUMDgzMDAwWgpTVU1N
+QVJZOk1GQSBSZXZpZXcgUmVxdWlyZWQKREVTQ1JJUFRJT046U3ludGhldGljIGNhbGVuZGFyIGlu
+dml0ZSBmb3IgdHJhaW5pbmcgb25seS4KRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==
+
+--===============4951108510165700256==--

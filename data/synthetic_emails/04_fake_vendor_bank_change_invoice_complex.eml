@@ -1,0 +1,123 @@
+Subject: URGENT: Supplier Banking Change + Overdue Invoice INV-90412
+From:
+ "Northwind Supplies Accounts" <accounts@northwind-supplies.example.invalid>
+To: accounts.payable@example.invalid
+Reply-To: collections@northwind-payments.example.invalid
+Return-Path: <bounce@northwind-supplies.example.invalid>
+Authentication-Results: mx.corp.example.invalid; spf=pass
+ smtp.mailfrom=northwind-supplies.example.invalid; dkim=none; dmarc=pass
+ header.from=northwind-supplies.example.invalid
+Date: Tue, 12 May 2026 10:10:00 +0000
+Message-ID: <complex-training-10@example.invalid>
+X-Originating-IP: [198.51.100.230]
+X-Training-Lab: Synthetic email for defensive SOC analysis only - no live
+ links or malicious payloads
+X-Case-ID: CASE-10
+X-Mailer: SyntheticLabMailer/2.0
+Received: from mail-gateway-10.example.invalid
+ (mail-gateway-10.example.invalid [198.51.100.230]) by mx.corp.example.invalid
+ with ESMTP id TRAIN10A; Tue, 12 May 2026 12:10:00 +0200
+Received: from outbound-relay-10.example.invalid
+ (outbound-relay-10.example.invalid [10.10.10.25]) by
+ mail-gateway-10.example.invalid with ESMTPS id TRAIN10B; Tue, 12 May 2026
+ 10:10:31 +0000
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============0488522530063142676=="
+X-Priority: 1
+Importance: high
+
+--===============0488522530063142676==
+Content-Type: multipart/alternative;
+ boundary="===============3276529680580892718=="
+
+--===============3276529680580892718==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+Good day,
+
+Please process the attached overdue invoice and update our banking details be=
+fore today's payment run.
+
+Portal:
+hxxps://northwind-payment-update[.]example[.]invalid/vendor/INV-90412
+
+Referenced risky filename for analyst focus:
+INV-90412.pdf.exe
+
+Attachments:
+- Invoice_INV-90412.html
+- Supplier_Bank_Change.csv
+- remittance_details.json
+- payment_deadline.ics
+
+No real payment details. Synthetic training email.
+
+--===============3276529680580892718==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<!doctype html><html><head><meta charset=3D"utf-8"><style>body{font-family:Ca=
+libri,Arial;background:#f8fafc}.box{max-width:820px;margin:24px auto;backgrou=
+nd:white;padding:26px;border:1px solid #cbd5e1}.urgent{background:#7f1d1d;col=
+or:white;padding:10px;font-weight:bold}table{border-collapse:collapse;width:1=
+00%;margin-top:12px}td,th{border:1px solid #ddd;padding:8px}.btn{background:#=
+0f766e;color:white;padding:12px 18px;text-decoration:none;border-radius:3px}s=
+mall{color:#64748b}</style></head><body><div class=3D"box"><div class=3D"urge=
+nt">URGENT: Payment run closes today</div><h2>Supplier Banking Change + Invoi=
+ce INV-90412</h2><p>Please process the overdue invoice and update our banking=
+ details before today's run.</p><table><tr><th>Invoice</th><th>Amount</th><th=
+>Status</th></tr><tr><td>INV-90412</td><td>R 84,250.00</td><td>Overdue</td></=
+tr></table><p><a class=3D"btn" href=3D"#">Open Vendor Payment Update</a></p><=
+p>Defanged portal: hxxps://northwind-payment-update[.]example[.]invalid/vendo=
+r/INV-90412</p><p>Analyst focus filename reference: <strong>INV-90412.pdf.exe=
+</strong></p><small>Synthetic BEC-style email. No live banking details.</smal=
+l></div></body></html>
+
+--===============3276529680580892718==--
+
+--===============0488522530063142676==
+Content-Type: text/html
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice_INV-90412.html"
+MIME-Version: 1.0
+
+PCFkb2N0eXBlIGh0bWw+PGh0bWw+PGJvZHk+PGgxPkludm9pY2UgVHJhaW5pbmcgUGxhY2Vob2xk
+ZXI8L2gxPjxwPlRoaXMgaXMgYSBzYWZlIEhUTUwgYXR0YWNobWVudCBmb3IgcGhpc2hpbmcgdHJp
+YWdlIHRyYWluaW5nLjwvcD48cD5SZWZlcmVuY2VkIHJpc2t5IGZpbGVuYW1lIGluIGVtYWlsIGJv
+ZHk6IElOVi05MDQxMi5wZGYuZXhlPC9wPjwvYm9keT48L2h0bWw+
+
+--===============0488522530063142676==
+Content-Type: text/csv
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Supplier_Bank_Change.csv"
+MIME-Version: 1.0
+
+c3VwcGxpZXIsYmFua19uYW1lLGFjY291bnRfbGFzdDQsc3RhdHVzCk5vcnRod2luZCBTdXBwbGll
+cyxFeGFtcGxlIEJ1c2luZXNzIEJhbmssNzc4OCxjaGFuZ2VfcmVxdWVzdGVkCg==
+
+--===============0488522530063142676==
+Content-Type: application/json
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="remittance_details.json"
+MIME-Version: 1.0
+
+ewogICJ0cmFpbmluZyI6IHRydWUsCiAgInN1cHBsaWVyIjogIk5vcnRod2luZCBTdXBwbGllcyIs
+CiAgImludm9pY2UiOiAiSU5WLTkwNDEyIiwKICAiYW1vdW50IjogIlIgODQyNTAuMDAiLAogICJu
+b3RlIjogIlN5bnRoZXRpYyBkYXRhIG9ubHkuIE5vIHJlYWwgYmFua2luZyBkZXRhaWxzLiIKfQ==
+
+--===============0488522530063142676==
+Content-Type: text/calendar
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="payment_deadline.ics"
+MIME-Version: 1.0
+
+QkVHSU46VkNBTEVOREFSClZFUlNJT046Mi4wClBST0RJRDotLy9TeW50aGV0aWMgRW1haWwgTGFi
+Ly9UcmFpbmluZy8vRU4KQkVHSU46VkVWRU5UClVJRDoxNzc4NzQxMTMzNTMuMTkxMi43MTg1MDgx
+MTI4ODk1NDkzODA1QGNhbGVuZGFyLmV4YW1wbGUuaW52YWxpZApEVFNUQU1QOjIwMjYwNTEyVDEw
+MDAwMFoKRFRTVEFSVDoyMDI2MDUxM1QwODAwMDBaCkRURU5EOjIwMjYwNTEzVDA4MzAwMFoKU1VN
+TUFSWTpQYXltZW50IFJ1biBEZWFkbGluZQpERVNDUklQVElPTjpTeW50aGV0aWMgcGF5bWVudCBk
+ZWFkbGluZSBmb3IgdHJhaW5pbmcgb25seS4KRU5EOlZFVkVOVApFTkQ6VkNBTEVOREFSCg==
+
+--===============0488522530063142676==--
