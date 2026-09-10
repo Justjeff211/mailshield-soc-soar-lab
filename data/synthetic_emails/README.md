@@ -1,4 +1,4 @@
-# Complex Synthetic Email Lab Pack v2
+# Synthetic Email Lab Pack
 
 This lab pack contains 4 complex synthetic `.eml` files for defensive SOC phishing triage practice.
 
