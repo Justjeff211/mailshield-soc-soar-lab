@@ -17,16 +17,16 @@ index=mailshield
 | table case_id, subject, from_domain, reply_to_domain, severity, expected_verdict
 ```
 
-- `index=mailshield` — scope to this project's data
-- `where from_domain != reply_to_domain` — keep only mismatched events
-- `table ...` — display as a clean, readable list
+- `index=mailshield`: scope to this project's data
+- `where from_domain != reply_to_domain`: keep only mismatched events
+- `table ...`: display as a clean, readable list
 
 ## Test Data
 4 synthetic phishing emails (`data/synthetic_emails/`), flattened into
 `data/sample_events/mailshield_events.csv`.
 
 ## Expected Result
-All 4 cases match — every email in this dataset has a Reply-To mismatch.
+All 4 cases match. Every email in this dataset has a Reply-To mismatch.
 
 | case_id | from_domain | reply_to_domain | severity |
 |---|---|---|---|
@@ -40,9 +40,9 @@ All 4 cases match — every email in this dataset has a Reply-To mismatch.
 - **Schedule**: Hourly
 - **Trigger condition**: Number of Results > 0
 - **Action**: Add to Triggered Alerts
-- **Time range**: All time (`dispatch.earliest_time=0`, `dispatch.latest_time=now`)
-  — set via Advanced Edit after the standard Save As Alert dialog didn't
-  persist "All time" correctly (see Troubleshooting).
+- **Time range**: All time (`dispatch.earliest_time=0`, `dispatch.latest_time=now`).
+  Set via Advanced Edit after the standard Save As Alert dialog didn't
+  persist "All time" correctly (see What I Learned).
 
 ## Evidence
 
@@ -64,22 +64,23 @@ Underlying raw event data, confirming genuine structured CSV ingestion
 ![Raw events view](./screenshots/detection-1-raw-events-view.png)
 
 ## False Positive Considerations
-Legitimate mail sometimes has a genuinely different Reply-To domain by design
-— for example, a company using a third-party mailing/marketing platform
-(`noreply@company.com` replying to `support@mailplatform.com`), or a
-helpdesk ticketing system. This detection is best used as a *risk signal*
-to combine with other indicators (urgency language, authentication failures,
-external sender), not as a standalone verdict.
+Legitimate mail sometimes has a genuinely different Reply-To domain by
+design, for example, a company using a third-party mailing/marketing
+platform (`noreply@company.com` replying to `support@mailplatform.com`),
+or a helpdesk ticketing system. This detection is best used as a *risk
+signal* to combine with other indicators (urgency language, authentication
+failures, external sender), not as a standalone verdict.
 
-This dataset currently has no legitimate/clean sample, so this detection has
-only been validated against known-malicious data — it has not yet been
-proven to avoid false positives on real everyday mail. Noted as a limitation.
+This dataset currently has no legitimate/clean sample, so this detection
+has only been validated against known-malicious data. It has not yet been
+proven to avoid false positives on real everyday mail. Noted as a
+limitation.
 
 ## What I Learned
 - Splunk's "Save As Alert" dialog does not always reliably persist "All time"
-  as the alert's search window — it silently defaulted to "Last 1 hour" even
+  as the alert's search window. It silently defaulted to "Last 1 hour" even
   after being changed in the search bar. Fixed via Advanced Edit by setting
   `dispatch.earliest_time=0` and `dispatch.latest_time=now` directly.
 - Saving a structured CSV source type under a new custom name can silently
   drop the CSV parsing settings if the Delimited Settings fields aren't
-  explicitly confirmed first — reverting to raw line-by-line ingestion.
+  explicitly confirmed first, reverting to raw line-by-line ingestion.
