@@ -1,10 +1,14 @@
 # Detection Engineering Docs
 
-One write-up per detection: objective, logic, SPL, test data, expected result,
-false-positive considerations.
+One write-up per detection: objective, logic, SPL, test data, expected
+result, false-positive considerations. Also home to the project's risk
+scoring model, since it's used across detections rather than tied to one.
 
-Planned:
-- Detection 1: Reply-To Domain Mismatch
-- Detection 2: External Sender + Urgency Language
+- [`detection-1-reply-to-mismatch.md`](./detection-1-reply-to-mismatch.md),
+  Reply-To Domain Mismatch. Complete, alert confirmed firing.
+- [`detection-2-urgency-language.md`](./detection-2-urgency-language.md),
+  External Sender + Urgency Language. Complete, alert confirmed firing.
+- [`risk-scoring-model.md`](./risk-scoring-model.md), the CVSS-aligned
+  (0.0-10.0) point model used to score investigated cases.
 
-Status: not yet written.
+Screenshots referenced by these docs live in `screenshots/`.
