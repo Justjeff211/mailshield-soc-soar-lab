@@ -4,7 +4,7 @@
 analysis, detection engineering, Splunk, Shuffle automation, IOC enrichment,
 risk scoring, and incident response in an isolated environment.**
 
-Status: In progress - built step by step, documented as I go.
+Status: 🚧 In progress - built step by step, documented as I go.
 
 ## What this project demonstrates
 
@@ -20,7 +20,7 @@ Risk Scoring -> Shuffle Automation -> Incident Response -> Documentation`
 - **AbuseIPDB** - IP abuse history
 - **CyberChef** - decoding/analysing email artefacts
 - **Git/GitHub** - version control and portfolio
-- **StackEdit** - In-browser Markdown editing, live preview, and GitHub-ready documentation
+- **StackEdit** - in-browser Markdown editing, live preview, and GitHub-ready documentation
 
 ## Repository structure
 
@@ -34,19 +34,19 @@ Risk Scoring -> Shuffle Automation -> Incident Response -> Documentation`
 ## Progress log
 
 - [x] Dataset inspected and organised (`data/synthetic_emails/`)
-- [ ] Data ingested into Splunk
-- [ ] Detection 1: Reply-To Domain Mismatch
-- [ ] Detection 2: External Sender + Urgency Language
-- [ ] IOC enrichment workflow
-- [ ] Risk scoring model
+- [x] Data ingested into Splunk
+- [x] Detection 1: Reply-To Domain Mismatch
+- [x] Detection 2: External Sender + Urgency Language
+- [x] IOC enrichment workflow (CASE-04)
+- [x] Risk scoring model (CVSS-aligned, 0.0-10.0)
 - [ ] Shuffle automation
-- [ ] Incident response write-ups
+- [x] Incident response write-ups (CASE-04 complete, CASE-01/02/03 pending)
 - [ ] Threat hunting exercises
 - [ ] MITRE ATT&CK mapping
 
 ## Connect with Me
 
-- Portfolio: [justjeff211.github.io](https://justjeff211.github.io/)
-- LinkedIn: [Mojalefa L. Letsoara](https://www.linkedin.com/in/mojalefa-l-letsoara283b5a211/)
+- 🌐 Portfolio: [justjeff211.github.io](https://justjeff211.github.io/)
+- 💼 LinkedIn: [Mojalefa L. Letsoara](https://www.linkedin.com/in/mojalefa-l-letsoara283b5a211/)
 
 This README will be filled in properly as each step is completed.

@@ -1,0 +1,4 @@
+# Sample/synthetic test data, not source code. Exclude from GitHub's
+# Languages statistics so the repo accurately reflects this as a
+# documentation/detection-engineering project, not an HTML project.
+data/** linguist-vendored
